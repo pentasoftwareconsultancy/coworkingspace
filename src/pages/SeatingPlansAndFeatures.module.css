@@ -1,0 +1,513 @@
+/* Styles for container and sections */
+.seatingfeaturecontainer {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:80px 20px;
+  }
+
+  .card {
+   
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .ratingLocation {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #555;
+  }
+  
+  .rating {
+    font-weight: bold;
+    color: #ff9900;
+  }
+  
+  .location {
+    color: #666;
+  }
+  
+  .trust {
+    background: #e3f2fd;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+  
+  .price {
+    text-align: right;
+  }
+  
+  .price span {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .price h2 {
+    font-size: 20px;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+  }
+  
+  .mainImage {
+    position: relative;
+    flex: 2 1 45%;
+  }
+  
+  .mainImage .image {
+    border-radius: 8px;
+   
+    object-fit: cover;
+  }
+  
+  .peopleChoice {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ffd700;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    color: #000;
+  }
+  
+  .gridImages {
+    height: 60%;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    flex: 3 1 20%;
+  }
+  
+  .image {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .moreImages {
+    position: relative;
+    flex: 4 1 16%;
+  }
+  
+  .viewPhotos {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  .heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Common styles for seating plans and features */
+  .seatingPlan,
+  .privateCabin {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .seatingPlan:hover,
+  .privateCabin:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .planImage,
+  .cabinImage {
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .planDetails,
+  .cabinDetails {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .priceSection,
+  .cardContent {
+    text-align: right;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .enquireBtn {
+    background: #007bff;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .enquireBtn:hover {
+    background: #0056b3;
+  }
+  
+  /* Upgrade section styles */
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 20px;
+  }
+  
+  .cardTitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cardDescription {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Features section styles */
+  .whyBook {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .featureItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+  }
+  
+  .floatingEnquire {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .awifscontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.rating {
+    color: #ffc107;
+}
+
+.price {
+    text-align: right;
+    color: #007bff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.seeMore {
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.officeTiming {
+    margin: 30px 0;
+}
+
+.timingGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.timingCard {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timingCard i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.amenities {
+    margin: 30px 0;
+}
+
+.amenitiesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.amenityItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+    padding: 10px;
+}
+
+.amenityItem i {
+    color: #007bff;
+    font-size: 18px;
+}
+
+.sidebar {
+ 
+  padding: 30px;
+  border-radius: 12px;
+ 
+
+  
+}
+.enquiryForm {
+    margin-bottom: 20px;
+    position: sticky; /* Make the sidebar sticky */
+  top: 0;           /* Stick to the top of the viewport */
+  z-index: 10;    /* Ensure it stays on top of other content */
+    
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.input,
+.select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.phoneInput {
+    display: flex;
+    gap: 10px;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.enquireBtn {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+}
+
+.visitBtn {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #007bff;
+    font-size: 14px;
+    cursor: pointer;
+    background: white;
+    color: #007bff;
+}
+
+.expertContact {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.trustedCompanies {
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+}
+
+.companyGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.companyLogo {
+    max-width: 100px;
+    height: auto;
+  
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.companyLogo:hover {
+    
+    opacity: 0.7;
+}
+
+
+.enquiryForm {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+
+.select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+
+
+
+.expertImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .timingGrid,
+    .amenitiesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .companyGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
