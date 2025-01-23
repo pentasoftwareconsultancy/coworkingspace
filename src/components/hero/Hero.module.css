@@ -51,10 +51,11 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
+    text-decoration: none;
   }
   
   .callLink:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
  
@@ -73,11 +74,11 @@
 
   .contactIcon {
     position: fixed;
-    bottom: 20px; /* Adjust spacing from bottom */
-    right: 20px; /* Adjust spacing from right */
-    width: 60px; /* Diameter of the icon */
+    bottom: 20px; 
+    right: 20px; 
+    width: 60px; 
     height: 60px;
-    background-color: #ffffff; /* Background color for the icon */
+    background-color: #ffffff; 
     border-radius: 50%;
     display: flex;
     z-index: 99;
@@ -126,7 +127,6 @@
     z-index: 1010; /* Ensure it's above the overlay */
 }
 
-/* Ensure no unintended page scrolling */
 
 
   

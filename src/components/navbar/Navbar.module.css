@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 10%; /* Increased padding for left and right gaps */
+    margin: 0px 10%; 
     padding: 10px 40px;
     background-color: transparent;
     flex-wrap: wrap;
@@ -11,16 +11,16 @@
     top: 0;
     left: 0;
     right: 0;
-    width: auto; /* Adjusted width to account for padding */
+    width: auto; 
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    border-bottom-left-radius: 15px; /* Added border-radius at the bottom */
-    border-bottom-right-radius: 15px; /* Added border-radius at the bottom */
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
 }
 
 .navContainer.scrolled {
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-bottom-left-radius: 15px; /* Ensure border-radius remains when scrolled */
+    border-bottom-left-radius: 15px; 
     border-bottom-right-radius: 15px; /* Ensure border-radius remains when scrolled */
 }
 
